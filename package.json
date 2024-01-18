@@ -1,0 +1,13 @@
+{
+  "name": "@org/root",
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "tsc --build .",
+    "test": "knip --production --strict"
+  },
+  "devDependencies": {
+    "knip": "^4.0.3",
+    "typescript": "^5.3.3"
+  }
+}
